@@ -4,5 +4,6 @@
      "twitterSecret": "TWITTERSECRET",
      "twitterAccessToken": "TWITTERACCESSTOKENFORYOURDEVUSER",
      "twitterAccessSecret": "TWITTERACCESSSECRETFORYOURDEVSECRET",
-     "callback": "CALLBACKFORTWITTERS"
+     "callback": "CALLBACKFORTWITTERS",
+     "address": "TARGETURL"
 }

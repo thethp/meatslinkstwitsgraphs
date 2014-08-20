@@ -8,7 +8,7 @@ var tweettweet = function(link) {
 	callback: config.twitterCallback
     });
     tw.statuses("update", {
-	    status: "Meats Say" + link
+	    status: link
         },
 	config.twitterAccessToken,
 	config.twitterAccessSecret,
