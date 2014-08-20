@@ -2,7 +2,7 @@
 var config = require('./config.json');
 var io = require('socket.io-client');
 
-function Meatsorber() {
+var Meatsorber = function() {
     if(config.apiKey === undefined) {
 	throw new Error('Missing API Key in config.json');
     }
@@ -10,8 +10,8 @@ function Meatsorber() {
     this.apiKey = config.apiKey;
 
     this.socket = io.connect(this.address);
-    this.socket.on('message', function messageData(data) {
+    this.socket.on('message', function cb(data) {
 	var msg = data.chat.value;
 	console.log(msg);
-    }
+    }.bind(this));
 }();
