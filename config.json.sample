@@ -1,3 +1,8 @@
 {
-     "apiKey":"OMGITSURAPIKEYITGOESHEREYAY"
+     "apiKey": "MEATSPACEAPIKEY",
+     "twitterApiKey": "TWITTERAPIKEY",
+     "twitterSecret": "TWITTERSECRET",
+     "twitterAccessToken": "TWITTERACCESSTOKENFORYOURDEVUSER",
+     "twitterAccessSecret": "TWITTERACCESSSECRETFORYOURDEVSECRET",
+     "callback": "CALLBACKFORTWITTERS"
 }
