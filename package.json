@@ -1,0 +1,28 @@
+{
+  "name": "meatslinkstwitsgraphs",
+  "version": "0.1.0",
+  "description": "compile links from meatspace, tweet them, graph them",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thethp/meatslinkstwitsgraphs.git"
+  },
+  "keywords": [
+    "meatspace",
+    "links",
+    "twitter",
+    "bot"
+  ],
+  "author": "Todd Page <todderick@gmail.com> (http://thpcod.es/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thethp/meatslinkstwitsgraphs/issues"
+  },
+  "homepage": "https://github.com/thethp/meatslinkstwitsgraphs",
+  "dependencies": {
+    "socket.io-client": "^1.0.6"
+  }
+}
