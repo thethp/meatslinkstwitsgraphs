@@ -23,7 +23,7 @@ Meatsorber = function() {
 	var regex = /^(https?:\/\/)?((?:\.?[-\w]){1,256})(\.\w{1,10})(?::[0-9]{1,5})?(?:\.?\/(?:[^\s.,?:;!]|[.,?:;!](?!\s|$)){0,2048})?/
 	var msg_segments = msg.split(" ");
 	msg_segments.forEach(function cb(el,i) {
-	    if(el.match(regex)) {
+	    if(el.match(regex) && el.indexOf('maps') < 0 && el.indexOf('hangouts') < 0) {
 		twitter(el.match(regex)[0]);
 	    }
 	});
