@@ -6,11 +6,12 @@ The initial goal of this is to have a twitter with all links shared on chat.meat
 The long term goal is to make a dashboard with easy browsing for said links, and possibly look into what links are the most frequently shared.
 
 ##Setup
-1: npm install
-2: copy config.json.sample -> config.json
-3: Setup dev.twitter.com account, and authorize it for read/write
-4: input secret codes and api keys into config.json
-5: node start index.js
+
+1. npm install
+2. copy config.json.sample -> config.json
+3. Setup dev.twitter.com account, and authorize it for read/write
+4. input secret codes and api keys into config.json
+5. node start index.js
 
 
 ## License
